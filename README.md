@@ -60,10 +60,10 @@ docker-compose up --build
 The API provides the following endpoints:
 
 - `GET /api/players` - Get all players
-- `GET /api/players/{id}` - Get player by ID
+- `GET /api/players/team/{id}` - Get player by ID (CSK,SRH,RCB...)
 - `POST /api/players` - Create a new player
-- `PUT /api/players/{id}` - Update player information
-- `DELETE /api/players/{id}` - Delete a player
+- `PUT /api/players/team/{id}` - Update player information
+- `DELETE /api/players/team/{id}` - Delete a player
 
 ## Testing
 
